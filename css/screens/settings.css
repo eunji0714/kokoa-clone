@@ -1,0 +1,35 @@
+.settings-list{
+    padding: 16px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.settings__setting{
+    padding:17px 0px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(0,0,0,0.7);
+    
+}
+
+.settings__setting i{
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting-mode{
+    color: rgba(0,0,0,0.4);
+    padding-left: 240px;
+}
+
+.settings-list:nth-child(2) .settings__setting:nth-child(4){
+    display: flex;
+    align-items: center;
+}
+
+.settings-list:nth-child(2) .settings__setting:nth-child(4) i:last-child{
+    color:tomato;
+    font-size: 13px;
+    padding-left: 8px;
+    opacity: 80%;
+}
