@@ -1,7 +1,7 @@
 .settings-list{
     padding: 16px 0px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    box-sizing: border-box;
+    
 }
 .settings__setting{
     padding:17px 0px;
@@ -19,7 +19,8 @@
 
 .settings__setting-mode{
     color: rgba(0,0,0,0.4);
-    padding-left: 240px;
+    width: auto;
+
 }
 
 .settings-list:nth-child(2) .settings__setting:nth-child(4){
