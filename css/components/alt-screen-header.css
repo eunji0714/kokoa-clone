@@ -39,6 +39,6 @@
     justify-content: flex-end;
 }
 
-
-
-
+.alt-header__column:last-child i{
+    padding-left:20px;
+}
